@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Brendan Wilson, graphic designer and motion designer based in Ottawa, Ontario.">
+  <title>Brendan Wilson | Résumé</title>
+
+  <style>
+    :root {
+      --ink: #15251e;
+      --green: #006b4b;
+      --lime: #d9f45f;
+      --paper: #ffffff;
+      --background: #e9ede7;
+      --muted: #526259;
+      --line: #d9e0d9;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    .toolbar {
+      max-width: 900px;
+      margin: 24px auto;
+      padding: 0 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .toolbar a {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .back {
+      color: var(--green);
+    }
+
+    .download {
+      padding: 12px 20px;
+      background: var(--green);
+      color: white;
+      border-radius: 30px;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: 0 auto 50px;
+      background: var(--paper);
+      padding: 52px 64px;
+      box-shadow: 0 15px 55px rgba(0,0,0,.08);
+    }
+
+    .resume-header {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 32px;
+    }
+
+    .resume-portrait {
+      width: 155px;
+      height: 155px;
+      flex-shrink: 0;
+      border: 4px solid var(--lime);
+      border-radius: 50%;
+      overflow: hidden;
+      background: #dfe5dd;
+    }
+
+    .resume-portrait img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 38px;
+      line-height: 1.1;
+      letter-spacing: -1.5px;
+      margin: 0 0 8px;
+    }
+
+    .role {
+      color: var(--green);
+      font-size: 17px;
+      font-weight: 700;
+      margin: 0 0 12px;
+    }
+
+    .contact {
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .contact a {
+      color: inherit;
+    }
+
+    section {
+      margin-top: 25px;
+    }
+
+    h2 {
+      color: var(--green);
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1.3px;
+      border-bottom: 2px solid var(--lime);
+      padding-bottom: 7px;
+      margin: 0 0 13px;
+    }
+
+    h3 {
+      font-size: 15px;
+      margin: 0;
+    }
+
+    p {
+      font-size: 13px;
+      margin: 6px 0;
+    }
+
+    .job {
+      margin-bottom: 17px;
+      break-inside: avoid;
+    }
+
+    .job-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .date {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .organization {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--green);
+      margin: 2px 0 5px;
+    }
+
+    ul {
+      margin: 7px 0 0;
+      padding-left: 19px;
+    }
+
+    li {
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+
+    .skills {
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .footer {
+      margin-top: 30px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 650px) {
+      .resume {
+        padding: 30px 22px;
+        margin-bottom: 0;
+      }
+
+      .resume-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+      }
+
+      .resume-portrait {
+        width: 125px;
+        height: 125px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .job-heading {
+        flex-direction: column;
+        gap: 2px;
+      }
+    }
+
+    @media print {
+      @page {
+        size: letter;
+        margin: 0.4in;
+      }
+
+      body {
+        background: white;
+      }
+
+        .toolbar {
+        display: none;
+        }
+
+        .resume-portrait {
+        display: block;
+        }
+
+      .resume {
+        max-width: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+      }
+
+      section {
+        margin-top: 15px;
+      }
+
+      .job {
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      p, li, .skills {
+        font-size: 10px;
+      }
+
+      h2, h3 {
+        font-size: 11px;
+      }
+
+      .contact, .organization, .date {
+        font-size: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="toolbar" aria-label="Résumé navigation">
+    <a class="back" href="index.html#resume">
+      &larr; Back to portfolio
+    </a>
+
+    <a
+      class="download"
+      href="assets/resume/brendan-wilson-resume.pdf"
+      download="Brendan_Wilson_Resume.pdf"
+    >
+      Download PDF &darr;
+    </a>
+  </nav>
+
+  <main class="resume">
+
+    <header class="resume-header">
+
+      <div class="resume-portrait">
+        <img
+          src="assets/branding/brendan-portrait.png"
+          alt="Portrait of Brendan Wilson"
+        >
+      </div>
+
+      <div>
+        <h1>Brendan Wilson</h1>
+        <p class="role">
+          Graphic Designer | Motion Designer
+        </p>
+
+        <div class="contact">
+          Ottawa, Ontario<br>
+          613-864-3307<br>
+          <a href="mailto:brendanwilson307@gmail.com">
+            brendanwilson307@gmail.com
+          </a>
+        </div>
+      </div>
+
+    </header>
+
+    <section>
+      <h2>Professional Profile</h2>
+      <p>
+        Multidisciplinary graphic and motion designer
+        with experience in visual identity, branding,
+        digital campaigns, animation, video production
+        and print design. Combines creative concept
+        development with extensive hands-on production
+        expertise. Experienced in collaborating with
+        creative teams, managing projects and delivering
+        polished work across digital and physical media.
+      </p>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+
+      <p class="skills">
+        <strong>Design:</strong>
+        Brand identity, logo development, typography,
+        layout, visual storytelling, campaign design,
+        digital assets and print production.
+      </p>
+
+      <p class="skills">
+        <strong>Motion &amp; Video:</strong>
+        Motion graphics, 2D and 3D animation,
+        compositing, video editing, visual effects,
+        green-screen production and rotoscoping.
+      </p>
+
+      <p class="skills">
+        <strong>Software:</strong>
+        Adobe Illustrator, Photoshop, InDesign,
+        After Effects, Cinema 4D and Blender.
+      </p>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+
+      <div class="job">
+        <div class="job-heading">
+          <h3>Freelance Graphic &amp; Motion Designer</h3>
+          <span class="date">2014–Present</span>
+        </div>
+
+        <p class="organization">
+          Independent | Ottawa, Ontario
+        </p>
+
+        <ul>
+          <li>
+            Developed visual identities, brand guidelines,
+            marketing materials and digital assets for
+            businesses and organizations.
+          </li>
+          <li>
+            Led the Enviro-Stewards rebrand, including
+            logo development, brand identity and
+            supporting visual materials.
+          </li>
+          <li>
+            Produced video campaigns for Ener-C,
+            managing creative development, filming,
+            editing, motion graphics and visual effects.
+          </li>
+          <li>
+            Managed client projects from concept and
+            creative development through production
+            and final delivery.
+          </li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-heading">
+          <h3>Motion Designer</h3>
+          <span class="date">2016–2017</span>
+        </div>
+
+        <p class="organization">
+          McMillan Advertising
+        </p>
+
+        <ul>
+          <li>
+            Produced motion graphics and visual content
+            for television, digital advertising and
+            branded video campaigns.
+          </li>
+          <li>
+            Created animated graphics, compositing
+            effects, green-screen keying, rotoscoping
+            and video edits.
+          </li>
+          <li>
+            Collaborated with designers and creative
+            teams to develop and execute multimedia
+            projects.
+          </li>
+          <li>
+            Joined as a co-op student and transitioned
+            into a full-time motion design position.
+          </li>
+        </ul>
+      </div>
+
+
+
+      <div class="job">
+        <div class="job-heading">
+          <h3>Shop Manager</h3>
+          <span class="date">2023–2025</span>
+        </div>
+
+        <p class="organization">
+          Black Sheep Designs
+        </p>
+
+        <ul>
+          <li>
+            Helped establish a new screenprinting
+            operation, including equipment setup,
+            production workflows and staff training.
+          </li>
+          <li>
+            Oversaw daily operations, quality assurance
+            and production efficiency.
+          </li>
+        </ul>
+      </div>
+
+
+    </section>
+
+    <section>
+      <h2>Education &amp; Recognition</h2>
+
+      <div class="job">
+        <h3>Graphic Design Diploma with Honours</h3>
+        <p class="organization">Algonquin College</p>
+        <p>
+          Recipient of the Bruce Rawlings Award
+          for academic and creative excellence.
+        </p>
+      </div>
+
+      <div class="job">
+        <h3>Professional Pattern Making</h3>
+        <p class="organization">
+          Richard Robinson Academy of Fashion Design
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Brendan Wilson | Graphic &amp; Motion Designer
+      | Ottawa, Ontario
+    </footer>
+
+  </main>
+
+</body>
+</html>
