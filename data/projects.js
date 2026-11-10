@@ -163,7 +163,7 @@ const mediaManifest = {
   hydro: {
     cover: 'assets/projects/hydro-ottawa/cover.jpg',
     media: [
-      ['youtube', 'p2UA3xoojtc', 'Hydro Ottawa motion design']
+      ['image', 'cover.jpg', 'Hydro Ottawa campaign artwork']
     ]
   },
 
