@@ -316,18 +316,26 @@ heading(
 // Keep the artwork in its own column.
 const pg = block(pw, "div", "case-grid");
 
-  pg.append(
-    figure(
-    
-    id === "em" || id === "ott"
-      ? root + "process-01.gif"
-      : root + "process-01.jpg",
-
-      "Exploration / process image 01",
-      "",
-      demo + "process-01.svg"
-    )
-  );
+    if (id === "steam") {
+      pg.append(
+        figure(
+          root + "steam-reveal.gif",
+          "Steam Whistle design reveal",
+          ""
+        )
+      );
+    } else {
+      pg.append(
+        figure(
+          id === "em" || id === "ott"
+            ? root + "process-01.gif"
+            : root + "process-01.jpg",
+          "Exploration / process image 01",
+          "",
+          demo + "process-01.svg"
+        )
+      );
+    }
 
   pg.append(
     figure(
@@ -1259,9 +1267,10 @@ function initCareerWheel() {
   if (!wheel || !ring) return;
 
   const stats = [
-    wheel.querySelector(".stat-one"),
-    wheel.querySelector(".stat-two"),
-    wheel.querySelector(".stat-three")
+  wheel.querySelector(".stat-one"),
+  wheel.querySelector(".stat-two"),
+  wheel.querySelector(".stat-three"),
+  wheel.querySelector(".stat-four")
   ];
 
   let progress = 0;
@@ -1278,7 +1287,7 @@ function initCareerWheel() {
 
     // Reveal statistics progressively.
 
-    const thresholds = [0.2, 0.45, 0.7];
+    const thresholds = [0.15, 0.35, 0.6, 0.85];
 
     stats.forEach((stat, index) => {
       if (!stat) return;
