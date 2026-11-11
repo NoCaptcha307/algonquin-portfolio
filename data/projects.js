@@ -160,12 +160,12 @@ const mediaManifest = {
     ]
   },
 
-  hydro: {
-    cover: 'assets/projects/hydro-ottawa/cover.jpg',
-    media: [
-      ['image', 'cover.jpg', 'Hydro Ottawa campaign artwork']
-    ]
-  },
+hydro: {
+  cover: 'assets/projects/hydro-ottawa/cover.jpg',
+  media: [
+    ['image', 'cover.jpg', 'Hydro Ottawa campaign artwork']
+  ]
+},
 
   flip: {
     cover: 'assets/projects/mcmillan-flipbooks/cover.jpg',
@@ -238,7 +238,7 @@ const caseContent = {
     scope: 'Identity · Brand system · Print',
     year: 'Client project',
 
-    challenge: 'An established environmental consultancy needed a visual identity that communicated its purpose with clarity and confidence.',
+    challenge: 'Enviro-Stewards approached me to develop a refreshed visual identity that better reflected their work in environmental consulting and sustainability. The challenge was to create a distinctive, professional brand that communicated their mission while remaining versatile across digital and print applications. The project encompassed a complete visual rebrand, from initial logo concepts to a cohesive identity system and comprehensive brand guidelines.',
 
     approach: 'I explored a wide range of visual directions, from traditional shield emblems and abstract eclipses to stylized E and S combinations. Through experiments with circles, intersecting lines and geometric forms, I worked toward a mark that felt both distinctive and purposeful. Each iteration helped refine the visual language, ultimately leading to a simpler identity rooted in environmental stewardship.',
 
@@ -246,7 +246,8 @@ const caseContent = {
 
     quote: 'A strong identity is more than a logo. It is a system that works everywhere.',
 
-    result: 'A cohesive visual language designed to carry the organisation across print and digital touchpoints.'
+    result: `The result was a complete visual identity that gave Enviro-Stewards a consistent, recognizable presence across print and digital communications. From developing the initial concept to establishing comprehensive brand guidelines, this project strengthened my ability to translate an organization's values into a practical, cohesive design system. It reinforced the importance of listening to stakeholders, maintaining brand consistency and creating visual assets that work together across different applications. These are skills I would bring directly to supporting Algonquin College's established identity and diverse communication needs.`
+
   },
 
   em: {
@@ -263,7 +264,8 @@ const caseContent = {
 
     quote: 'Movement, contrast and timing turn an ordinary moment into a story.',
 
-    result: 'The finished campaign brought together concept development, live-action production, motion design and visual effects into one cohesive piece. From planning the transitions to compositing the final shots, the project was an opportunity to combine creative storytelling with technical execution, delivering a polished commercial that captured Ener-C\'s vibrant personality.'
+    result: `The finished campaigns brought together creative direction, live-action production, motion graphics and visual effects to communicate Ener-C's brand personality through engaging visual storytelling. Taking these projects from initial concept through filming, editing and final delivery strengthened my ability to manage complex creative workflows, solve technical challenges and maintain a consistent visual direction across multiple deliverables. This experience translates directly to Algonquin College, where creating effective content across digital platforms requires versatility, collaboration and a clear understanding of the audience.`
+
   },
 
   hydro: {
@@ -280,16 +282,17 @@ const caseContent = {
 
     quote: 'Motion gives visual communication another dimension.',
 
-    result: 'The finished videos transformed static storyboards and illustrations into engaging, polished motion graphics. Through animation, thoughtful pacing and seamless transitions, I brought the original creative concepts to life while maintaining a consistent visual language across each piece. The project demonstrated my ability to collaborate with other designers, interpret their creative vision and carry their work through to a finished production.'
+    result: `The completed videos transformed static storyboards and illustrations into engaging motion graphics while preserving Hydro Ottawa's established visual identity. Working from creative concepts developed by other designers strengthened my ability to interpret a brief, collaborate effectively and bring someone else's vision to life through animation, pacing and thoughtful transitions. This experience reinforced an important part of professional design: knowing when to lead creatively and when to support a larger team's vision. It's an approach I would bring to Algonquin College, where collaboration and brand consistency are essential to producing effective communications.`
+
   },
 
   flip: {
     subtitle: 'Creative problem-solving inside an advertising agency.',
     role: 'Motion Designer',
     scope: 'Animation · Agency creative · Print · Video',
-    year: '2016–2017/18',
+    year: '2016–2017',
 
-    challenge: 'Working with major clients meant much of my commercial work had to stay behind when I left McMillan. But some of my favourite projects happened within the agency itself. From holiday campaigns and animated flipbooks to experimental motion graphics, these were opportunities to collaborate, explore new ideas, and have a little fun with design.',
+    challenge: `At McMillan Advertising, I worked as a motion designer on campaigns for clients including QuickBooks and United Rentals. My role involved creating motion graphics, animated lower thirds, logo reveals and visual effects, as well as supporting filming, editing and compositing. Working alongside the agency's creative team, I helped bring concepts to life across a range of commercial projects. While much of that client work isn't represented here, the projects that follow offer a glimpse into the creativity, collaboration and experimentation that defined my time at McMillan.`,
 
     approach: 'My responsibilities included animation, lower thirds, logo reveals, compositing and supporting video production. One particularly memorable project involved animating illustrations created by another designer for McMillan’s holiday client mailers.',
 
@@ -297,7 +300,8 @@ const caseContent = {
 
     quote: 'Motion design can live beyond the screen.',
 
-    result: 'The holiday flipbooks were just one small part of my time at McMillan. I contributed to countless projects across animation, video production, compositing and motion graphics for major clients. Much of that work isn’t mine to publicly showcase, but it’s out there in the world. The flipbooks remain a personal favourite because they brought together everything I loved about working there: creativity, collaboration, experimentation and the opportunity to turn an idea into something tangible.',
+    result: `My time at McMillan Advertising taught me how to thrive within a collaborative creative team. Working on campaigns for clients including QuickBooks and United Rentals strengthened my ability to interpret briefs, meet deadlines, respond to feedback and contribute to projects involving multiple creative disciplines. The holiday flipbooks were a particularly memorable example of that collaboration, transforming another designer's illustrations into animated sequences and ultimately physical products for clients. The experience reinforced the importance of respecting other people's creative contributions while bringing my own technical skills and ideas to the table. It's an approach I would carry into Algonquin College's Marketing team, where successful design depends on collaboration, adaptability and a shared creative vision.`
+
   },
 
   steam: {
@@ -308,15 +312,14 @@ const caseContent = {
 
     challenge: `What began as a graphic design project at Algonquin College soon caught the attention of the team at Steam Whistle Brewery. Impressed by the original concept, they commissioned me to develop a series of T-shirt designs, turning a classroom assignment into a real-world creative collaboration.`,
 
-    approach: `Inspired by Andy Warhol's Pop Art, I explored how an everyday product could become something iconic. Bold typography, familiar imagery and a little creative experimentation helped shape the designs. As Warhol famously suggested, everyone gets their fifteen minutes of fame. One school project ended up giving me mine.`,
+    approach: `The concept began with a simple play on words: **Blueprint to Brewprint.** I reimagined Steam Whistle's iconic bottle as a vintage technical drawing, using detailed illustrations, annotations and typography to give the design the appearance of an architectural blueprint. The monochromatic blue palette ties everything together, turning a familiar product into a graphic that celebrates the brand through a little visual humour.`,
 
     solution: 'Finished apparel graphics intended for real garments, not just a screen.',
 
     quote: 'A great graphic has to work in the real world.',
 
-    result: `What started as a classroom assignment became one of my first opportunities to see my designs out in the real world. Steam Whistle commissioned three original T-shirt graphics, giving me the chance to combine illustration, brand storytelling and my knowledge of screen printing.
+    result: `What began as a classroom assignment at Algonquin College became one of my first opportunities to turn a creative concept into a commercial product. Steam Whistle commissioned three original T-shirt designs, allowing me to combine illustration, visual storytelling and my knowledge of screen printing. One of those designs went on to be sold by the brewery. The experience taught me that strong design is about more than an interesting idea. It requires understanding the brand, developing artwork that works in production and carrying a concept through to a finished product. It's a lesson that began at Algonquin and continues to shape how I approach design today.`
 
-One of those designs went on to be sold by the brewery. Seeing something I created in college become a real product was a pretty rewarding moment, and proof that a good idea can take you further than you expect.`,
   },
 
   caps: {
@@ -369,11 +372,8 @@ One of those designs went on to be sold by the brewery. Seeing something I creat
 
     quote: 'Good layout design makes information effortless to navigate.',
 
-    
+    result: `Working with Waybridge Realty gave me the opportunity to develop a wide range of marketing materials, from property brochures and print collateral to social media campaigns, motion graphics and promotional videos. Creating content for different audiences and platforms strengthened my ability to adapt a consistent visual identity to a variety of communication needs. The experience also reinforced the importance of understanding a client's goals, responding to feedback and delivering work that is both creative and practical. While the clients happened to be my parents, the expectations were professional and the lessons were invaluable. These are skills I would bring to Algonquin College, where clear, consistent communication across print and digital platforms is essential.`
 
-result: `Working with Waybridge Realty gave me the opportunity to create everything from print collateral and property brochures to social media campaigns, motion graphics and promotional videos. It was a chance to bring consistency and personality to a growing real estate business.
-
-And yes, the clients were my parents. That didn't make the work any less meaningful or the expectations any lower. If anything, the feedback was more direct, the revisions more personal, and client meetings occasionally happened over Sunday dinner.`,
 
 
   }
